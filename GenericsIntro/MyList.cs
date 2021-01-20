@@ -20,7 +20,6 @@ namespace GenericsIntro
             {
                 items[i] = tempArray[i];
             }
-            //items = tempArray;
             items[items.Length-1] = item;
         }
     }
