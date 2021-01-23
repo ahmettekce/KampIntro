@@ -19,7 +19,7 @@ namespace OOP3
 
             List<IKrediManager> krediler = new List<IKrediManager>() { ihtiyacKrediManager, tasitKrediManager };
 
-            //basvuruManager.KrediOnBilgilendirmesiYap(krediler);
+            basvuruManager.KrediOnBilgilendirmesiYap(krediler);
         }
     }
 }
